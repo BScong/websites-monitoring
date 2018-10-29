@@ -13,7 +13,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='A performance monitoring tool for websites',
                                          epilog='Written by Benoit Zhong')
 
-    parser.add_argument('websites', help='Websites to monitor and their corresponding check intervals in seconds')
+    parser.add_argument('websites', help='Websites (text file) to monitor and their corresponding check intervals in seconds')
     args = parser.parse_args()
     return args
 

@@ -1,5 +1,5 @@
 https://www.google.com/ 5
 https://www.zhong.fr/ 30
-https://datadoghq.com/404 15
+https://datadoghq.com/ 15
 https://github.com/ 10
 http://127.0.0.1:8000/ 3
