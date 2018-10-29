@@ -56,6 +56,7 @@ We check if we have to raise an alert for a specific website after each request 
 To test the Alerts system, we can run a [HTTP server](https://docs.python.org/3/library/http.server.html) on localhost then shut it down during two minutes.
 We should have the alert message showing up in the terminal. We can then start it again and the recovery message should show up.
 This test is implemented in `test_alert.py`.
+To run: run `python3 test_alert.py` and then `python3 monitoring.py websites.txt` in another window. Both processes must be running at the same time.
 
 ## Improvements
 Some improvements can be made to the current program:
